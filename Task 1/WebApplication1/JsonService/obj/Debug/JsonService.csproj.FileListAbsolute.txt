@@ -1,0 +1,7 @@
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\JsonService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\JsonService.pdb
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\System.Web.Mvc.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\System.Web.Mvc.xml
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\obj\Debug\JsonService.csprojResolveAssemblyReference.cache
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\obj\Debug\JsonService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\obj\Debug\JsonService.pdb
