@@ -1,0 +1,13 @@
+﻿@using StarWars.Infrastructure
+@model User
+@{
+    Layout = "~/Views/_Layout.cshtml";
+    ViewBag.Title = "PersonView";
+    ViewBag.User = Model;
+}
+@Html.Partial("Header")
+<div>
+    @Model.PersonInfo;
+</div>
+@Html.Action("Footer");
+
