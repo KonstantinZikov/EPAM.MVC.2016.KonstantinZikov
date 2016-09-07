@@ -1,5 +1,5 @@
 ﻿@using StarWars.Infrastructure
-@{string imageUrl = Model.Fraction == Fraction.Empire? "empire.png" : "rebel.png";}
+@{string imageUrl = "Content/" + (Model.Fraction == Fraction.Empire? "empire.png" : "rebels.jpg");}
 <div class="header">
     <img src="@imageUrl"/>
     <p class="fraction-name">@Model.Fraction.ToString()</p>

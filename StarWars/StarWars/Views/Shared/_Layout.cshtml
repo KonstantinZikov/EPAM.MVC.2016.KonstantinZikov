@@ -1,36 +1,4 @@
-﻿@using StarWars.Infrastructure
-@section scripts{
-    <script type="text/javascript">
-        function changeSideNo() {
-            var $footer = $(".footer");
-            $($footer.children()).remove();
-            $footer.text("Right choose BRO!");
-        }
-    </script>
-    @if (ViewBag.User.Fraction == Fraction.Empire)
-    {
-        <link  type="text/css" href="dark.css" rel="stylesheet"/>
-        <script type="text/javascript">
-            function changeSideYes(){
-                var $footer = $(".footer");
-                $($footer.children()).remove();
-                $footer.text("Prepare uranus.");
-            }
-        </script>
-    }
-    else
-    {
-        <link type="text/css" href="light.css" rel="stylesheet" />
-        <script type="text/javascript">
-            function changeSideYes(){
-                $.post("/ChangeSide/@ViewBag.User.Id", {}, function () {
-                    location.reload();
-                })
-            }
-        </script>
-    }
-}
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -40,29 +8,14 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <ul class="navigation">
-        @if(ViewBag.User.Fraction == Fraction.Empire)
-        {
-            <li>
-                Empire navigation 1
-            </li>
-            <li>
-                Another empire navigation
-            </li>
-        }
-        else
-        {
-            <li>
-                Rebels navigation
-            </li>
-            <li>
-                Rebels navigation
-            </li>
-        }
-    </ul>
+   
+    @RenderSection("navigation", required: false)
     @RenderBody()
+
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("customScripts", required: false)
     @RenderSection("scripts", required: false)
+    
 </body>
 </html>

@@ -1,13 +1,47 @@
 ﻿@using StarWars.Infrastructure
 @model User
 @{
-    Layout = "~/Views/_Layout.cshtml";
     ViewBag.Title = "PersonView";
-    ViewBag.User = Model;
 }
 @Html.Partial("Header")
-<div>
+<div class="content" data-id="@Model.Id">
     @Model.PersonInfo;
 </div>
 @Html.Action("Footer");
+
+@section navigation{
+    <ul class="navigation">
+        @if (Model.Fraction == Fraction.Empire)
+        {
+            <li>
+                Empire navigation 1
+            </li>
+                <li>
+                    Another empire navigation
+                </li>
+        }
+        else
+        {
+            <li>
+                Rebels navigation
+            </li>
+                <li>
+                    Rebels navigation
+                </li>
+        }
+    </ul>   
+}
+
+@section customScripts{
+    @if (Model.Fraction == Fraction.Empire)
+    {
+        @Styles.Render("~/Content/dark.css")
+        @Scripts.Render("~/Scripts/dark.js");
+    }
+    else
+    {
+        @Styles.Render("~/Content/light.css")
+        @Scripts.Render("~/Scripts/light.js");
+    }
+}
 
