@@ -5,7 +5,11 @@
 }
 function changeSideYes() {
     var id = $(".content").attr("data-id");
-    $.post("Home/ChangeSide/" + id, {}, function () {
-        location.reload();
-    })
+    $.ajax({
+        type:"POST",
+        url: "/Home/ChangeSide/" + id,
+        success: function () {
+            location.reload();
+        }
+    });           
 }

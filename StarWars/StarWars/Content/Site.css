@@ -1,29 +1,71 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿*{
+    margin:0;
+    padding:0;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+body{
+    background-color:#000000
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+img{
+    width:300px;
+    display:block;
+    float:left;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.header{
+    overflow:hidden;
+    width:80%;
+    min-width:500px;
+    margin:auto;
+    border-radius:10px;
 }
 
-.header img{
-    height:200px;
-    width:200px;
+.header p{
+    padding:40px;
+    margin-left:20px;
+    float:left;
+    font-size:60px
+}
+
+.navigation li{
+    float:left;
+    margin:10px;
+    padding:10px;
+    background-color:#3a3a3a;
+    border-radius:3px;
+    color:#ffffff;
+    list-style:none;
+}
+
+.navigation{
+    overflow:hidden;
+}
+
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding:20px;
+}
+
+.footer button{
+    width:100px;
+    border:none;
+    color:red;
+    background-color:#3a3a3a;
+    color:#ffffff;
+    border-radius:3px;
+}
+
+.content{
+    overflow:hidden;
+    width:80%;
+    min-width:500px;
+    margin:auto;
+    border-radius:10px;
+    padding:40px;
+    margin-top:30px;
+    background-color: #202020;
+    color:red;
 }
