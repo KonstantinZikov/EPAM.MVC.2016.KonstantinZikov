@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace Models.Models
 {
+    [ModelBinder(typeof(PersonFormModelBinder))]
 	public class Person
 	{
 		public int PersonId { get; set; }
@@ -14,11 +15,11 @@ namespace Models.Models
 		public string LastName { get; set; }
 		public DateTime BirthDate { get; set; }
 		public Address HomeAddress { get; set; }
+        public string AddressSummary { get; set; }
 		public bool IsActive { get; set; }
 		public Role Role { get; set; }
 	}
 
-    [ModelBinder(typeof(CustomBiner))]
 	public class Address
 	{
 		public string Line1 { get; set; }

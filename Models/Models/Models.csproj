@@ -128,11 +128,11 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infrastructure\BindModel.cs" />
-    <Compile Include="Infrastructure\CountryValueProvider.cs" />
-    <Compile Include="Infrastructure\CustomValueProviderFactory.cs" />
+    <Compile Include="Infrastructure\CustomDateValidator.cs" />
     <Compile Include="Infrastructure\NinjectDependencyResolver.cs" />
-    <Compile Include="Infrastructure\PersonValueProvider.cs" />
+    <Compile Include="Infrastructure\BasePersonFormModelBinder.cs" />
+    <Compile Include="Infrastructure\PersonQueryModelBinder.cs" />
+    <Compile Include="Infrastructure\PersonFormModelBinder.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -143,9 +143,9 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\CreatePerson.cshtml" />
-    <Content Include="Views\Home\DisplaySummary.cshtml" />
     <Content Include="Views\Home\Names.cshtml" />
     <Content Include="Views\Home\Addresses.cshtml" />
+    <Content Include="Views\Home\DisplaySummary.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

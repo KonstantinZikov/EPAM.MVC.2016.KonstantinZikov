@@ -34,7 +34,7 @@ namespace Models.Controllers
             return View("Index", model);
         }
 
-        public ActionResult DisplaySummary([Bind(Prefix = "HomeAddress")]Address summary)
+        public ActionResult DisplaySummary(Person summary)
         {
             return View(summary);
         }
