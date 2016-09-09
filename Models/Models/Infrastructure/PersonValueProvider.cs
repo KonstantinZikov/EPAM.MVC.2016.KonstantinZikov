@@ -6,16 +6,17 @@ using System.Web.Mvc;
 
 namespace Models.Infrastructure
 {
-    public class PersonValueProvider : IValueProvider
+    public class PersonFormProvider : FormValueProvider
     {
         public bool ContainsPrefix(string prefix)
         {
             return prefix.ToLower()
-                .IndexOf("country", StringComparison.Ordinal) > 1;
+                .IndexOf("person", StringComparison.Ordinal) > 1;
         }
 
         public ValueProviderResult GetValue(string key)
         {
+            HttpContext.Current.Request.Form.
             throw new NotImplementedException();
         }
     }
