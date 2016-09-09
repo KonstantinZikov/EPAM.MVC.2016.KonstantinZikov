@@ -27,13 +27,9 @@ namespace Models.Infrastructure
                 role = Role.Guest;
             }
 
-            if (role == Role.Admin)
+            if (role == Role.Admin && !controllerContext.HttpContext.Request.IsLocal)
             {
-                var host = controllerContext.HttpContext.Request.Url.Host;
-                if (!(host == "localhost" || host == "127.0.0.1"))
-                {
-                    role = Role.User;
-                }
+                role = Role.User;
             }
 
             // Address
