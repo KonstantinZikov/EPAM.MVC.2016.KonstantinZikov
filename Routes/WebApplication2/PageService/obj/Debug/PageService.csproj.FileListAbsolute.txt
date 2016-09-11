@@ -1,0 +1,14 @@
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\PageService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\PageService.pdb
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\System.Web.Mvc.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\System.Web.Mvc.xml
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\obj\Debug\PageService.csprojResolveAssemblyReference.cache
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\obj\Debug\PageService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\obj\Debug\PageService.pdb
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\bin\Debug\PageService.dll
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\bin\Debug\PageService.pdb
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\bin\Debug\System.Web.Mvc.dll
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\bin\Debug\System.Web.Mvc.xml
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\obj\Debug\PageService.csprojResolveAssemblyReference.cache
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\obj\Debug\PageService.dll
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\PageService\obj\Debug\PageService.pdb

@@ -1,0 +1,14 @@
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\JsonService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\JsonService.pdb
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\System.Web.Mvc.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\bin\Debug\System.Web.Mvc.xml
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\obj\Debug\JsonService.csprojResolveAssemblyReference.cache
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\obj\Debug\JsonService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\JsonService\obj\Debug\JsonService.pdb
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\bin\Debug\JsonService.dll
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\bin\Debug\JsonService.pdb
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\bin\Debug\System.Web.Mvc.dll
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\bin\Debug\System.Web.Mvc.xml
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\obj\Debug\JsonService.csprojResolveAssemblyReference.cache
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\obj\Debug\JsonService.dll
+C:\Users\konst\Desktop\MVC\Routes\WebApplication2\JsonService\obj\Debug\JsonService.pdb

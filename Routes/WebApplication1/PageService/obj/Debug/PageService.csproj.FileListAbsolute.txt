@@ -1,0 +1,7 @@
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\PageService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\PageService.pdb
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\System.Web.Mvc.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\bin\Debug\System.Web.Mvc.xml
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\obj\Debug\PageService.csprojResolveAssemblyReference.cache
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\obj\Debug\PageService.dll
+D:\Kanstantsin_Zykau\exercise1\Exercise2\WebApplication1\PageService\obj\Debug\PageService.pdb
